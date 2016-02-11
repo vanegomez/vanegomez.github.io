@@ -19,3 +19,4 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: :index` to `controller: :index`. (called from block in <top (required)> at /Users/Vane/vanegomez.github.io/config/routes.rb:2)
